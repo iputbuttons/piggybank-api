@@ -1,0 +1,16 @@
+{
+  "author": "Francisco Rodriguez",
+  "name": "piggybank-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json --middlewares ./featureFlags.js --port 3000",
+    "start:v2": "json-server db_v2.json --middlewares ./featureFlags.js --port 3000"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "description": "Mock API for PiggyBank app using json-server",
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
