@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "json-server db.json --middlewares ./featureFlags.js --port 3000",
-    "start:v2": "json-server db_v2.json --middlewares ./featureFlags.js --port 3000"
+    "start": "json-server db_v2.json --middlewares ./featureFlags.js",
+    "dev": "json-server db_v2.json --middlewares ./featureFlags.js --port 3000 --watch"
   },
   "keywords": [],
   "license": "ISC",
